@@ -12,9 +12,7 @@ import {
   supd
 } from "cypress/pages/sigUpPage/suPageStringsSelectorsEnums";
 import { Given, Then, When } from "@badeball/cypress-cucumber-preprocessor";
-
 import "cypress/support/commands.ts";
-
 import "cypress/hooks/hooks";
 import { sipd } from "cypress/pages/signInPage/siPageStringsSelectorsEnums";
 
