@@ -1,4 +1,4 @@
-This is Cypress-Cucumber-Typescript project
+This is Cypress-Cucumber-Typescript project.
 
 Automation Tool: Cypress
 
