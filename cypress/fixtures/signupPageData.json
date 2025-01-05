@@ -1,0 +1,15 @@
+[
+  {
+    "Personal Information field": {
+      "Personal Information": "Personal Information",
+      "First Name": "First Name",
+      "Last Name": "Last Name"
+    },
+    "Sign-in Information field": {
+      "Sign-in Information": "Sign-in Information",
+      "Email": "Email",
+      "Password": "Password",
+      "Confirm Password": "Confirm Password"
+    }
+  }
+]

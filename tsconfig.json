@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": ["src/app/*"],
+      "@components/*": ["src/components/*"]
+    },
+    "types": ["cypress", "node"]
+  },
+  "include": [
+    "cypress/**/*.ts",
+    "cypress/**/*.feature",
+    "support/**/*.ts",
+    "cypress/step_definitions/**/*.ts"
+  ],
+  "exclude": ["node_modules"],
+  "paths": {
+    "@badeball/cypress-cucumber-preprocessor": [
+      "./node_modules/@badeball/cypress-cucumber-preprocessor"
+    ]
+  },
+  "types": ["cypress", "@badeball/cypress-cucumber-preprocessor"]
+}
