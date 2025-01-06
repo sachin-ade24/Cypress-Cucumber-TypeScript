@@ -9,9 +9,7 @@ import {
   signIn,
   sipd
 } from "cypress/pages/signInPage/siPageStringsSelectorsEnums";
-
 import "cypress/support/commands.ts";
-
 import "cypress/hooks/hooks";
 
 Given("user is on homepage", () => {
